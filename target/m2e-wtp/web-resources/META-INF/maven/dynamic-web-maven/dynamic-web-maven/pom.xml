@@ -23,6 +23,13 @@
         </configuration>
       </plugin>
       <plugin>
+      	<groupId>org.apache.maven.plugins</groupId>
+      	<artifactId>maven-resources-plugin</artifactId>
+      	<configuration>
+      		<encoding>${project.build.sourceEncoding}</encoding>
+      	</configuration>
+      </plugin>
+      <plugin>
         <artifactId>maven-war-plugin</artifactId>
         <version>3.2.1</version>
         <configuration>
