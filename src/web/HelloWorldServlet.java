@@ -30,7 +30,7 @@ public class HelloWorldServlet extends HttpServlet {
 	{
 		JSONObject obj = new JSONObject();
 		
-		obj.put("name", "jenkins");
+		obj.put("name", "alm");
 		obj.put("num", new Integer(100));
 		obj.put("balance", new Double(1000.21));
 		obj.put("is_vip", new Boolean(true));
