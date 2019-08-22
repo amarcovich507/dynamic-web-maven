@@ -25,4 +25,18 @@
       </plugin>
     </plugins>
   </build>
+  <dependencies>
+  	<dependency>
+    	<groupId>javax.servlet</groupId>
+    	<artifactId>javax.servlet-api</artifactId>
+    	<version>3.0.1</version>
+	</dependency>
+	<dependency>
+		<groupId>org.json.simple</groupId>
+		<artifactId>json-simple-1.1.1</artifactId>
+		<version>1.0.0</version>
+		<scope>system</scope>
+		<systemPath>${basedir}/WebContent/WEB-INF/lib/json-simple-1.1.1.jar</systemPath>
+	</dependency>
+  </dependencies>
 </project>
